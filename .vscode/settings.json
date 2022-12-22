@@ -1,0 +1,4 @@
+{
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+    "html.format.indentInnerHtml": true
+}
