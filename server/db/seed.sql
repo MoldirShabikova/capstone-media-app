@@ -45,5 +45,15 @@ create table likes (
 
 insert into users(username, email, name, password, coverPic, profilePic)
 values('AdamSendler', 'sendler@gmail.com', 'Adam', '123456', 'img.jpg', 'image.gpg'),
-('TomCruz', 'tom@gmail.com', 'Tom', '123456', 'img.jpg', 'image.gpg'),
-('Jessica', 'jess@gmail.com', 'Jessica', '6788', 'img.jpg', 'image.gpg');
+('JuanaMoore', 'moore@gmail.com', 'Juana', '764683', 'img.jpg', 'image.gpg'),
+('DuaneHood', 'duane@gmail.com', 'Duane', '87874', 'img.jpg', 'image.gpg'),
+('Napoleon', 'dawson@gmail.com', 'Napoleon', '34355', 'img.jpg', 'image.gpg'),
+('Jarred', 'jarred@gmail.com', 'Jarred', '123456', 'img.jpg', 'image.gpg'),
+('fakename', 'kelvin@gmail.com', 'Santos', '12233', 'img.jpg', 'image.gpg'),
+('Yolanda', 'yolanda@gmail.com', 'Yolanda', '56656', 'img.jpg', 'image.gpg'),
+('ErnaSummers', 'ernasum@gmail.com', 'Erna', '1676756', 'img.jpg', 'image.gpg'),
+('CarlaSmith', 'carlas@gmail.com', 'Carla', '967564', 'img.jpg', 'image.gpg'),
+('Jessica', 'jess@gmail.com', 'Jessica', '6788', 'img.jpg', 'image.gpg')
+;
+
+-- insert into posts(description, image)
