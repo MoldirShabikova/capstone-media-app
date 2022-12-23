@@ -56,4 +56,14 @@ values('AdamSendler', 'sendler@gmail.com', 'Adam', '123456', 'img.jpg', 'image.g
 ('Jessica', 'jess@gmail.com', 'Jessica', '6788', 'img.jpg', 'image.gpg')
 ;
 
--- insert into posts(description, image)
+insert into posts(user_id, description, image)
+values(1, 'Lello everyone', 'img.jpg'),
+(1, 'Lello everyone', 'img.jpg'),
+(3, 'Great day', 'img.jpg'),
+(4, 'Dont be shy', 'img.jpg'),
+(5, 'Everyone is amazing', 'img.jpg'),
+(6, 'Green tea', 'img.jpg'),
+(7, 'Best loactions', 'img.jpg'),
+(8, 'Meet me in Paris', 'img.jpg'),
+(9, 'Snowy winter', 'img.jpg'),
+(10, 'Good mornig', 'img.jpg');

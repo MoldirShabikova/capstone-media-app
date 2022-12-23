@@ -6,7 +6,7 @@ const cors = require("cors");
 const  userCtrl  = require("./controllers/usersController");
 // const authCtrl  = require("./controllers/authController");
 // const  commentCtrl  = require("./controllers/commentsController");
-// const  postCtrl  = require("./controllers/postsController");
+const  postCtrl  = require("./controllers/postsController");
 // const  likesCtrl  = require("./controllers/likeController");
 
 
@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
 
 
 //Posts Endpoints
-// app.get('/api/getPosts', getPosts)
+app.get("/api/getPosts", postCtrl.getPosts);
 
 //Users Endpoints
 app.get("/api/users", userCtrl.getUsers);
